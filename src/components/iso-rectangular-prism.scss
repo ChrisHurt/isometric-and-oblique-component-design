@@ -1,0 +1,28 @@
+.zero-dimension-container{
+  transform-origin: top left;
+  width: 0;
+  height: 0;
+}
+
+.rectangular-prism{
+  transform-origin: top left;
+  transform: translate(100px,100px);
+}
+.rp-outside-left{
+  transform-origin: top left;
+  background-color: rgba(128,128,128,0.7);
+  width: 50px;
+  height: 10px;
+  transform: rotateZ(30deg) skew(30deg);
+}
+.rp-outside-right{
+  transform-origin: top left;
+  background-color: rgba(255,128,128,0.7);
+  width: 100px;
+  height: 10px;
+}
+.rp-outside-top{
+  transform-origin: top left;
+  transform: rotateZ(-30deg) skew(30deg);
+  background-color: rgba(128,128,255,0.7);
+}
