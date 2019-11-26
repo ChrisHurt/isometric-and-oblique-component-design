@@ -7,9 +7,22 @@ function App() {
   return (
     <div className="App">
       <RectangularPrism
-        width={100}
-        length={20}
-        height={10}
+        outsideDimensions={
+          {
+            // width: 10,
+            // length: 100,
+            // height: 20
+          }
+        }
+        hole={
+          {
+            // width: 1,
+            // length: 10,
+            // height: 2,
+            // xOffset: 5,
+            // yOffset: 5
+          }
+        }
       />
     </div>
   );

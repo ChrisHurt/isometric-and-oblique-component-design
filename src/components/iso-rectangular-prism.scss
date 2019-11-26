@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .zero-dimension-container{
   transform-origin: top left;
   width: 0;
@@ -11,18 +15,32 @@
 .rp-outside-left{
   transform-origin: top left;
   background-color: rgba(128,128,128,0.7);
-  width: 50px;
-  height: 10px;
   transform: rotateZ(30deg) skew(30deg);
 }
 .rp-outside-right{
   transform-origin: top left;
   background-color: rgba(255,128,128,0.7);
-  width: 100px;
-  height: 10px;
 }
 .rp-outside-top{
   transform-origin: top left;
   transform: rotateZ(-30deg) skew(30deg);
   background-color: rgba(128,128,255,0.7);
+}
+.rp-inside-left{
+  transform-origin: top left;
+  background-color: red;
+}
+.rp-inside-right{
+  transform-origin: bottom left;
+  background-color: black;
+}
+.rp-inside-bottom{
+  transform-origin: top left;
+  background-color: darkblue;
+}
+.z-index-2{
+  z-index: 2;
+}
+.z-index-1{
+  z-index: 1;
 }
